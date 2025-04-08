@@ -1,3 +1,56 @@
+# ECOM - E-Commerce Website
+
+A PHP-based e-commerce website with features like user authentication, product management, and shopping cart functionality.
+
+## Setup Instructions
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/ECOM.git
+```
+
+2. Configure your database:
+- Create a new MySQL database
+- Import the database schema from `database.sql`
+- Copy `config.php.example` to `config.php`
+- Update database credentials in `config.php`
+
+3. Configure SMTP:
+- Enable 2-Step Verification in your Gmail account
+- Generate an App Password
+- Update SMTP credentials in `config.php`
+
+4. Start your local server:
+```bash
+php -S localhost:8000
+```
+
+5. Visit `http://localhost:8000` in your browser
+
+## Features
+
+- User Authentication
+- Product Management
+- Shopping Cart
+- Order Processing
+- Email Notifications
+
+## Technologies Used
+
+- PHP
+- MySQL
+- HTML/CSS
+- JavaScript
+- PHPMailer for email functionality
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
 # Ecommerce-dynamic-website-with-admin-panel-using-php
 
 After learning PHP, Ajax, MySQL, etc.., I have made this project of Dynamic Ecommerce website with Admin panel

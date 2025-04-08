@@ -120,16 +120,16 @@ if(isset($_GET['search_product']))
 						All products
 					</button>
 
-					<a href="women-product.php" class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5">
-						Women-Products
+					<a href="table-product.php" class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5">
+						table
 					</a>
 
-					<a href="men-product.php" class="stext-106 stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5">
-						Men-Products
+					<a href="Sofa-product.php" class="stext-106 stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5">
+						Sofas
 					</a>
 
-					<a href="accessories-product.php" class="stext-106 stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5">
-						Fashion Accessories
+					<a href="Bed-product.php" class="stext-106 stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5">
+						Bed
 					</a>
 
 					<!-- <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".Men">

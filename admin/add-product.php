@@ -87,8 +87,11 @@ if (isset($_POST['submit_product']))
                     <label for="exampleInputPassword1">Category of Product</label>
                     <select class="form-control" name="category" required>
                       <option selected disabled>-Select Category of Product-</option>
-                      <option>Women</option>
-                      <option>Men</option>
+                      <option>Tables</option>
+                      <option>Sofas</option>
+                      <option>Chairs</option>
+                      <option>Beds</option>
+                      <option>Wardrobes</option>
                       <option>Accessories</option>
                     </select>
                   </div>
@@ -106,33 +109,44 @@ if (isset($_POST['submit_product']))
                     <label for="exampleInputPassword1">Type of Product</label>
                     <select class="form-control" name="type" required>
                       <option selected disabled>-Select Type of Product-</option>
-                      <option>Shirt</option>
-                      <option>T-shirt</option>
-                      <option>Jeans</option>
-                      <option>Cotton-pent</option>
-                      <option>Top</option>
-                      <option>Kurti</option>
-                      <option>Sarwar</option>
-                      <option>Capri</option>
-                      <option>Belt</option>
-                      <option>Gogles</option>
-                      <option>Purse</option>
-                      <option>Cap</option>
-                      <option>Shoes</option>
-                      <option>Socks</option>
-                      <option>Watch</option>
-                      <option>Bag</option>
+                      <option>Dining Table</option>
+                      <option>Coffee Table</option>
+                      <option>Study Table</option>
+                      <option>Side Table</option>
+                      <option>Console Table</option>
+                      <option>Center Table</option>
+                      <option>Foldable Table</option>
+                      <option>Office Desk</option>
+                      <option>3-Seater Sofa</option>
+                      <option>2-Seater Loveseat</option>
+                      <option>L-Shaped Sofa</option>
+                      <option>U-Shaped Sectional Sofa</option>
+                      <option>Recliner Sofa</option>
+                      <option>Sofa Bed (Pull-Out)</option>
+                      <option>Modular Sofa</option>
+                      <option>Single Bed</option>
+                      <option>Double Bed</option>
+                      <option>Queen Size Bed</option>
+                      <option>Storage Bed (Hydraulic/Drawer)</option>
+                      <option>Wardrobe</option>
+                      <option>Chest of Drawers</option>
+                      <option>Bookshelf</option>
+                      <option>TV Unit / Entertainment Unit</option>
+                      <option> Sideboard / Cabinet </option>
+                      <option>Wall Shelves</option>
                     </select>
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputFile">Select Avilable Size of Product</label>
                       <div>
-                        <input type="checkbox" name="size[]" value="S - Small"> S - Small <br>
-                        <input type="checkbox" name="size[]" value="M - Medium"> M - Medium <br>
-                        <input type="checkbox" name="size[]" value="L - Large"> L - Large <br>
-                        <input type="checkbox" name="size[]" value="XL - Extra Large"> XL - Extra Large <br>
-                        <input type="checkbox" name="size[]" value="XXL - Extra Extra Large"> XXL - Extra Extra Large <br>
+                        <input type="checkbox" name="size[]" value="1"> 60 x 36 x 30<br>
+                        <input type="checkbox" name="size[]" value="2"> 72 x 38 x 30 <br>
+                        <input type="checkbox" name="size[]" value="3"> 96 x 42 x 30 <br>
+                        <input type="checkbox" name="size[]" value="4">	78 x 32 x 34<br>
+                        <input type="checkbox" name="size[]" value="5"> 60 x 32 x 34 <br>
+                        <input type="checkbox" name="size[]" value="6">75 x 36<br>
+                        <input type="checkbox" name="size[]" value="7"> 75 x 48<br>
                      </div>
                   </div>
 

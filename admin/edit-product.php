@@ -218,47 +218,63 @@ if (isset($_POST['edited_product']))
                   <div class="form-group">
                     <label for="exampleInputFile">Select Avilable Size of Product</label>
                       <div>
-                        <input type="checkbox" name="size[]" value="S - Small"
+                        <input type="checkbox" name="size[]" value="1"
                         <?php 
                         for($i=0; $i<$size_length; $i++)
                           { 
-                            if($size[$i]=="S - Small")
+                            if($size[$i]=="1")
                               {echo "checked";}
                           } 
-                        ?>> S - Small <br>
-                        <input type="checkbox" name="size[]" value="M - Medium"
+                        ?>> 1 (60 x 36 x 30) <br>
+                        <input type="checkbox" name="size[]" value="2"
                         <?php 
                         for($i=0; $i<$size_length; $i++)
                           { 
-                            if($size[$i]=="M - Medium")
+                            if($size[$i]=="2")
                               {echo "checked";}
                           } 
-                        ?>> M - Medium <br>
-                        <input type="checkbox" name="size[]" value="L - Large"
+                        ?>> 2 (72 x 38 x 30) <br>
+                        <input type="checkbox" name="size[]" value="3"
                         <?php 
                         for($i=0; $i<$size_length; $i++)
                           { 
-                            if($size[$i]=="L - Large")
+                            if($size[$i]=="3")
                               {echo "checked";}
                           } 
-                        ?>> L - Large <br>
-                        <input type="checkbox" name="size[]" value="XL - Extra Large"
+                        ?>> 3 (96 x 42 x 30) <br>
+                        <input type="checkbox" name="size[]" value="4"
                         <?php 
                         for($i=0; $i<$size_length; $i++)
                           { 
-                            if($size[$i]=="XL - Extra Large")
+                            if($size[$i]=="4")
                               {echo "checked";}
                           } 
-                        ?>> XL - Extra Large <br>
-                        <input type="checkbox" name="size[]" value="XXL - Extra Extra Large"
+                        ?>> 4 (78 x 32 x 34) <br>
+                        <input type="checkbox" name="size[]" value="5"
                         <?php 
                         for($i=0; $i<$size_length; $i++)
                           { 
-                            if($size[$i]=="XXL - Extra Extra Large")
+                            if($size[$i]=="5")
                               {echo "checked";}
                           } 
-                        ?>> XXL - Extra Extra Large <br>
-                     </div>
+                        ?>> 5 (60 x 32 x 34) <br>
+                        <input type="checkbox" name="size[]" value="6"
+                        <?php 
+                        for($i=0; $i<$size_length; $i++)
+                          { 
+                            if($size[$i]=="6")
+                              {echo "checked";}
+                          } 
+                        ?>> 6 (75 x 36) <br>
+                        <input type="checkbox" name="size[]" value="7"
+                        <?php 
+                        for($i=0; $i<$size_length; $i++)
+                          { 
+                            if($size[$i]=="7")
+                              {echo "checked";}
+                          } 
+                        ?>> 7 (75 x 48) <br>
+                      </div>
                   </div>
 
                   <div class="form-group">

@@ -4,8 +4,9 @@ include_once '../site_connection.php';
 
 $row = $_SESSION['user_row'];
 
-$to_email = $row['email'];
-$to_name = $row['name'];
+// For testing - hardcoded email
+$to_email = "furnivision7@gmail.com"; // Test email
+$to_name = "Furnivision";
 
 /**
  * This example shows making an SMTP connection with authentication.
@@ -30,18 +31,19 @@ $mail->SMTPDebug = 2;
 $mail->Debugoutput = 'html';
 //Set the hostname of the mail server
 $mail->Host = "smtp.gmail.com";
-//Set the SMTP port number - likely to be 25, 465 or 587
-$mail->Port = 587;
+//Set the SMTP port number
+$mail->Port = 465;
 //Whether to use SMTP authentication
 $mail->SMTPAuth = true;
+$mail->SMTPSecure = 'ssl';
 //Username to use for SMTP authentication
-$mail->Username = "pratikginoya194@gmail.com";
+$mail->Username = SMTP_USERNAME;
 //Password to use for SMTP authentication
-$mail->Password = "volskxzxpzuplsle";
+$mail->Password = SMTP_PASSWORD;
 //Set who the message is to be sent from
-$mail->setFrom('pratikginoya194@gmail.com', 'First Last');
+$mail->setFrom(SMTP_USERNAME, 'Furnivision');
 //Set an alternative reply-to address
-$mail->addReplyTo('', '');
+$mail->addReplyTo(SMTP_USERNAME, 'Furnivision');
 //Set who the message is to be sent to
 $mail->addAddress($to_email,$to_name);
 //Set the subject line
@@ -59,8 +61,10 @@ $mail->AltBody = 'This is a plain-text message body';
 
 //send the message, check for errors
 if ($mail->send()) {
-    
     $_SESSION['otp'] = $otp;
+    echo "OTP sent successfully to " . $to_email;
     header('location:../otp.php');
-   
+} else {
+    echo "Mailer Error: " . $mail->ErrorInfo;
+    die();
 }

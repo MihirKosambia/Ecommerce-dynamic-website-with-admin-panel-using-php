@@ -9,20 +9,20 @@
 
 					<ul>
 						<li class="p-b-10">
-							<a href="women-product.php" class="stext-107 cl7 hov-cl1 trans-04">
-								Women
+							<a href="table-product.php" class="stext-107 cl7 hov-cl1 trans-04">
+								Table
 							</a>
 						</li>
 
 						<li class="p-b-10">
-							<a href="men-product.php" class="stext-107 cl7 hov-cl1 trans-04">
-								Men
+							<a href="Sofa-product.php" class="stext-107 cl7 hov-cl1 trans-04">
+								Sofas
 							</a>
 						</li>
 
 						<li class="p-b-10">
-							<a href="accessories-product.php" class="stext-107 cl7 hov-cl1 trans-04">
-								Fashion Accessories
+							<a href="Bed-product.php" class="stext-107 cl7 hov-cl1 trans-04">
+								Bed
 							</a>
 						</li>
 					</ul>
@@ -123,8 +123,8 @@
 
 				<p class="stext-107 cl6 txt-center">
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This Project is made by <b>Pratik Ginoya</b> using PHP, for learning purpose only...
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This Project is made by <b>Mihir,Manshi,Jaymin,Souvik,Sonali,Rohit</b> using PHP
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -
 
 				</p>
 			</div>
